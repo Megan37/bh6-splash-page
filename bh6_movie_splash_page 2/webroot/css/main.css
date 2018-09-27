@@ -1,0 +1,63 @@
+html, body {
+background-color: rgb(100, 114, 141);
+}
+
+.border-helper, .char_box {
+    border: 1px solid white;
+}
+
+#content-wrapper {
+    position: relative;
+    width: 1500px;
+    height: 1200px;
+    margin: 0 auto;
+}
+
+#hiro {
+    position: absolute;
+    z-index: 6;
+    left: 335px;
+    top: 345px;
+}
+
+#baymax {
+    position: absolute;
+    z-index: 2;
+    left: 110px;
+    top: 144px;
+}
+
+#logo {
+    position: absolute;
+    z-index: 7;
+    left: 625px;
+    top: 700px;
+}
+
+#lemon {
+    position: absolute;
+    z-index: 5;
+    left: 750px;
+    top: 225px;
+}
+
+#wasabi {
+    position: absolute;
+    z-index: 3;
+    left: 0px;
+    top: 195px;
+}
+
+#fred {
+    position: absolute;
+    z-index: 1;
+    left: 510px;
+    top: 125px;
+}
+
+#gogo {
+    position: absolute;
+    z-index: 4;
+    left: 245px;
+    top: 300px;
+}
